@@ -1,0 +1,75 @@
+/* Style for the sub-menu */
+.sub-menu {
+  padding: 0;
+  margin: 20px 0;
+  width: 45%;
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: space-around;
+
+}
+
+.sub-menu li {
+  margin-right: 20px;
+}
+
+.sub-menu li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sub-menu li a.current {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+.wrap .users_data_head{
+  display: flex;
+    padding: 20px 0px;
+    padding-top: 0px;
+}
+.wrap .users_data_head form{
+
+  margin-left: 20px;
+}
+.wrap .users_data_head h5{
+  margin-bottom: 0px;
+}
+.settings_saved{
+  display: none !important;
+}
+
+.notifier_options_sn{
+  margin-top: 40px;
+  margin-left: -215px;
+}
+
+th{
+  white-space:nowrap;
+}
+.button-primary{
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  padding: 9px 30px !important;
+  background-color: rgba(0, 0, 0, 0.04)!important;
+  color:#333!important;
+  border: 0!important;
+  border-radius: 6px!important;
+  transition: 0.3s all ease !important;
+}
+.button-primary:hover{
+  background-color:rgba(0, 0, 0, 0.09)!important;
+}
+.stock_notifier_submit_btn{
+  margin: 20px 0px 10px;
+}
+.disabled{
+  opacity: 0.3 !important;
+  cursor: pointer !important;
+}
